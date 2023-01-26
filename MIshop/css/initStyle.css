@@ -1,0 +1,46 @@
+/* 将标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 将斜体文字不倾斜 */
+em,
+i {
+    font-style: normal
+}
+
+/* 去掉li的小圆点 */
+li {
+    list-style: none
+}
+
+/* 取消图片边框以及空白空隙 */
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+/* 将按钮的鼠标样式改为手部 */
+button {
+    cursor: pointer
+}
+
+/* 更改连接标签样式 */
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+/* 更改按钮和输入框文字样式，去除边框 */
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
